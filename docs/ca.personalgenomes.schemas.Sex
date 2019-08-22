@@ -1,1 +1,12 @@
-ca.personalgenomes.schemas.Sex.json
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "ca.personalgenomes.schemas.Sex",
+    "x-ga4gh-schema-id": "ca.personalgenomes.schemas.Sex",
+    "description": "Personal Genome Project Canada - Enumerations - Participant Sex",
+    "type": "string",
+    "enum": [
+        "M",
+        "F",
+        "X"
+    ]
+}
