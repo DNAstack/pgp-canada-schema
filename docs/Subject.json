@@ -19,12 +19,12 @@
       },
       "blood_type": {
         "description": "Optional blood type",
-        "$ref": "http://localhost:8100/data/v1/schemas/BloodType",
+        "$ref": "https://dnastack.github.io/pgp-canada-schema/BloodType.json",
         "x-ga4gh-position": 2
       },
       "sex": {
         "description": "Sex",
-        "$ref": "http://localhost:8100/data/v1/schemas/Sex",
+        "$ref": "https://dnastack.github.io/pgp-canada-schema/Sex.json",
         "x-ga4gh-position": 3
       }
     }
